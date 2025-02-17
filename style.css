@@ -101,7 +101,7 @@
     transition: all 0.3 ease;
 }
   .buttons .button:hover{
-    background-color: black;
+    background-color: rgb(59, 59, 59);
   }
   .profile-card .analytics{
     display: flex;
@@ -125,6 +125,12 @@
     border-right: none;
 
   }
+
+@media (min-width:800px) {
+  body{
+    background-color: yellowgreen;
+  }
+}
 
 
 
